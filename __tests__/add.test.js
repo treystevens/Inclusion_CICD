@@ -11,9 +11,3 @@ test('Should return null if not a number', () => {
   const result = null;
   expect(expected).toBe(result);
 });
-
-test('Should return null if one parameter is omitted', () => {
-  const expected = add(100);
-  const result = null;
-  expect(expected).toBe(result);
-});
