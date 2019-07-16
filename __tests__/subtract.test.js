@@ -2,7 +2,7 @@ const subtract = require('../subtract');
 
 test('Should subtract one number from another', () => {
   const expected = subtract(10, 4);
-  const result = 2;
+  const result = 6;
   expect(expected).toBe(result);
 });
 
